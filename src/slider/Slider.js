@@ -70,7 +70,7 @@ const Swipers = () => {
 
                 <View style={{ flex: 1, justifyContent: 'flex-end' }}>
 
-                    <Button title="Skip" color="#222" onPress={() => Actions.home()} />
+                    <Button title="Skip" color="#222" onPress={() => Actions.stackNav()} />
 
                 </View>
 

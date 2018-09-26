@@ -30,7 +30,7 @@ class ForgotPassword extends Component {
                     <TouchableOpacity style={styles.button}>
                         <Text style={styles.buttonText} onPress={() => {
                             alert("Email Sent Successfully");
-                            Actions.home()
+                            Actions.stackNav()
                         }}>Send Email</Text>
                     </TouchableOpacity>
 

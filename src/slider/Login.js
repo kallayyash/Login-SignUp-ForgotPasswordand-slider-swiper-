@@ -30,7 +30,7 @@ class Login extends Component {
                     <TouchableOpacity style={styles.button}>
                         <Text style={styles.buttonText} onPress={() => {
                             alert("Login Successfully");
-                            Actions.home()
+                            Actions.stackNav()
                         }}>Log In</Text>
                     </TouchableOpacity>
 
