@@ -4,7 +4,7 @@ import {
     View, Button, TouchableOpacity, Image, TextInput, StatusBar
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import Logo from './Logo';
+
 
 class Login extends Component {
     render() {
